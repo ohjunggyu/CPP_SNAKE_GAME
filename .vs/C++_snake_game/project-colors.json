@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "55ddba85-6c46-4077-9f9a-ef77a7dca13b": {
+      "ProjectGuid": "55ddba85-6c46-4077-9f9a-ef77a7dca13b",
+      "DisplayName": "C++_snake_game",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
