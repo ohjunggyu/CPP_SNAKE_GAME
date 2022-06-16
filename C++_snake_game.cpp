@@ -22,10 +22,10 @@ using namespace std;
 //////////////////////////////////////////
 
 
-#define KEY_UP 450
-#define KEY_LEFT 452
-#define KEY_RIGHT 454
-#define KEY_DOWN 456
+#define KEY_UP 259
+#define KEY_LEFT 260
+#define KEY_RIGHT 261
+#define KEY_DOWN 258
 
 
 // Snake 관련
@@ -214,6 +214,7 @@ void game_over() { // 게임오버 관련 처리기
     input_map("gameover.txt");
     clear();
     drawMap();
+    printw("\n.");
     drawScore();
     drawMission();
     refresh();
